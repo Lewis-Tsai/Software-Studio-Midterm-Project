@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+  
+    <title>Signin Page</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link href="css/signin.css" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-database.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/signin.js"></script>
+</head>
+<body class="text-center">
+	<div id="custom-alert">
+	</div>
+	<div class="container" id="container">
+		<div class="form-container sign-in-container">
+			<form action="#">
+				<h1>sign in/register</h1>
+				<div class="social-container">
+					<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+					<a href="#" class="social" id="btngoogle"><i class="fab fa-google-plus-g"></i></a>
+					<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+				<span>or use your account</span>
+				<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+				<input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+				<a href="#">Forgot your password?</a>
+				<button id="btnLogin">Sign In</button>
+            	<button id="btnSignUp">Sign Up</button>
+			</form>
+		</div>
+	</div>
+</body>

@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+
+</html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>User Profile</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/profile.css" rel="stylesheet">
+
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-storage.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="https://kit.fontawesome.com/a9d687a91e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    
+</head>
+
+<body>
+    <div class="container rounded bg-white mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-3 border-right">
+                <div class="d-flex flex-column align-items-center text-center p-3 py-5">
+                    <img class="rounded-circle mt-5" width="150px" id="img_src" src="img/figure-1.png">
+                    <span class="font-weight-bold" id="show_user">User</span>
+                    <span class="text-black-50" id="show_user_email">pounding_hard@nthu</span>
+                    <div class="mt-5 text-center">
+                        <input type="file" id="fileInput" name="fileInput" hidden/>
+                        <button id="upload" class="btn btn-primary profile-button" type="button">
+                            <i class="fa-solid fa-images"></i>profile pic
+                        </button>
+                    </div>
+                    <progress value="0" max="100" id="uploader">0%</progress></br>
+                    <span> </span>
+                </div>
+            </div>
+            <div class="col-md-5 border-right">
+                <div class="p-3 py-5">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h4 class="text-right">Profile Settings</h4>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-12"><label class="labels">User Name</label><input type="text" id='text_user_name' class="form-control" placeholder="enter user name" value=""></div>
+                        <div class="col-md-12"><label class="labels">Age</label><input type="text" id='text_age' class="form-control" placeholder="enter age" value=""></div>
+                        <div class="col-md-12"><label class="labels">Occupation</label><input type="text" id='text_occu' class="form-control" placeholder="student" value=""></div>
+                        <div class="col-md-12"><label class="labels">Education</label><input type="text" id='text_edu' class="form-control" placeholder="college" value=""></div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-6"><label class="labels">Country</label><input type="text" id='text_country' class="form-control" placeholder="Taiwan" value=""></div>
+                        <div class="col-md-6"><label class="labels">City</label><input type="text" id='text_city' class="form-control" value="" placeholder="Hsinchu"></div>
+                    </div>
+                    <div class="mt-5 text-center">
+                        <button id="submit" class="btn btn-primary profile-button" type="button">
+                            <i class="fa-solid fa-floppy-disk"></i>Save Profile
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3 py-5">
+                    <div class="d-flex justify-content-between align-items-center experience"><span>Edit Your Profile</span></div><br>
+                    <div class="col-md-12"><label class="labels">So that other users can know you better😎😋</label></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+</body>
+
+</html>
