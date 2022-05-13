@@ -25,6 +25,12 @@
 
 ---
 
+### Before using 
+:::danger
+Change the database rules to 'true' in firebase console
+![](https://i.imgur.com/1uAtZlX.png)
+:::
+
 ### How to use 
 
     Describe how to use your web and maybe insert images or gifs to help you explain.
