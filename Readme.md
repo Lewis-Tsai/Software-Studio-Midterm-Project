@@ -114,23 +114,6 @@ This is a chatroom website created from scratch.
 
     * Mind that you can't block any user in public chatroom.
 
-## Function description
-* I have accomplished all the basic components.
-* I have provided detailed description of advanced and bonus components above.
-* Here's a list of what I have done.
-* **Advanced components**
-1. Sign Up/In with Google or other third-party accounts 
-2. Add Chrome notification 
-3. Use CSS animation 
-4. Deal with problems when sending code 
-
-* **Bonus components**
-1. User profile 
-2. Profile picture 
-3. Send image 
-4. Send video 
-5. Block User 
-
 ## Link
     
 [chatroom website link](https://software-studio-mid-chatroom.web.app/) (Link may expire due to firebase policy)
