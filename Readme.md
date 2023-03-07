@@ -27,7 +27,7 @@
 </div>
 
 ## Semester and class
-2022 Spring NTHU EECS207002	
+2022 Spring NTHU CS 241002	
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
